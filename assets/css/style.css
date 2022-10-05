@@ -201,7 +201,7 @@ p{
 
 @media only screen and (max-width: 600px) {
 
-  html, body{
+  body{
     overflow-y: unset;
   }
 
