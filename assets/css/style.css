@@ -42,7 +42,7 @@ p{
 
 .black{
   background: rgba(0,0,0, 0.7);
-  height: 100vh;
+  height: 100%;
 }
 
 .twitter{
@@ -202,7 +202,7 @@ p{
 @media only screen and (max-width: 600px) {
 
   body{
-    overflow: hidden !important;
+    overflow-y: unset;
   }
 
     .top-marker{
