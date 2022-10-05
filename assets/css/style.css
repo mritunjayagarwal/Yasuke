@@ -1,0 +1,232 @@
+/* for the pen */
+@font-face {
+    font-family: 'Mareka';
+    src: url('../fonts/MAREKA.otf');
+}
+
+@font-face {
+  font-family: 'Hanbai';
+  src: url('../fonts/HANBAI.ttf');
+}
+
+body {
+    margin: 0;
+    min-height: 110%;
+    background-color: #001331;
+    font-family: 'Mareka';
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size:47px;
+    text-shadow: 0 0 3px #000, 7px 7px 7px #000;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin: 0px 50px;
+    text-align: center;
+    /* line-height: 28px; */
+}
+
+.navbar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.black{
+  background: rgba(0,0,0, 0.7);
+  height: 100vh;
+}
+
+.twitter{
+  display: none;
+}
+
+.container{
+    min-width: 90%;
+    margin: 0 auto;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100%;
+    /* object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    z-index: 2;
+}
+
+.img-1{
+  position: absolute; left: 500px;top: 40px;
+}
+
+.img-2{
+  position: absolute; left: 680px; top: 0px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Hanbai';
+}
+
+.navbar-nav li a{
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 0 10px;
+    font-weight: 600;
+    font-family: 'Hanbai';
+}
+
+.nav-link{
+  letter-spacing: '2px';
+}
+
+.bisco-pic{
+  position: absolute; bottom: 0; right: 0; width: 400px; height: auto;
+}
+
+.yasuke-pic2{
+  position: absolute; bottom: 0; left: 0; width: 600px; height: auto;
+}
+
+.back-pic{
+  animation: zoom 5s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+    /* equals 105% */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bisco-temp{
+  display: none;
+}
+
+.bottom-frames{
+  position: relative; margin-left: -140px;height: 200px;
+}
+
+.btnf{
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  h1{
+    font-size: 50px;
+    /* margin: 25px 0; */
+  }
+
+  p{
+    font-size: 20px;
+    /* margin: 20px 0; */
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  h1{
+    font-size: 60px;
+    margin: 30px 0;
+  }
+
+  p{
+    font-size: 27px;
+  }
+
+  .bisco-pic{
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  h1{
+    font-size: 75px;
+    margin: 30px 0;
+  }
+
+  p{
+    font-size: 26px;
+  }
+
+  .bisco-pic{
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .top-marker{
+        display: none;
+    }
+
+    .bisco-pic{
+      display: none;
+    }
+
+    /* .bisco-temp{
+      display: block;
+      margin-bottom: -100px;
+    } */
+
+    .black{
+        height: 100%;
+    }
+
+    .navbar-nav li a{
+      margin: 10px 10px;
+  }
+
+  .navbar-collapse{
+    background: #000
+  }
+
+  .navbar-brand{
+    font-size: 25px
+  }
+
+  .bottom-frames{
+    height: 300px;
+  }
+
+  .btnf{
+    display: block;
+  }
+
+  .splashf{
+    display: none;
+  }
+
+  .img-1{
+    position: absolute; left: 160px !important;top: 120px !important;
+  }
+  
+  .img-2{
+    position: absolute; left: 310px !important; top:50px !important;
+  }
+  
+  .twitter{
+    display: block;
+  }
+
+  #background-video {
+    height: 100%;
+}
+
+  }
