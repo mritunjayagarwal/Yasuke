@@ -27,6 +27,10 @@ h1{
     text-shadow: 0 0 3px #000, 7px 7px 7px #000;
 }
 
+.temp1temp{
+  display: none;
+}
+
 p{
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -277,6 +281,10 @@ p{
 
     .bisco-pic{
       display: none;
+    }
+
+    .temp1temp{
+      display: block;
     }
 
     /* .bisco-temp{
