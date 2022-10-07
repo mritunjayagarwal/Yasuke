@@ -212,7 +212,7 @@ p{
   }
 
   .socials-bottom{
-    margin-top: 0px !important;
+    margin-top: 20px !important;
   }
 }
 @media only screen and (max-width: 1200px), screen and (max-height: 600px) {
