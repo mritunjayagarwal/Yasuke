@@ -192,7 +192,7 @@ p{
     margin: 20px 0;
   }
 } */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px), screen and (max-height: 800px) {
   h1{
     font-size: 60px;
     /* margin: 25px 0; */
@@ -210,16 +210,9 @@ p{
     font-size: 20px;
     /* margin: 20px 0; */
   }
-}
-@media only screen and (min-width: 1200px) {
-  h1{
-    font-size: 60px;
-    /* margin: 25px 0; */
-  }
 
-  p{
-    font-size: 23px;
-    /* margin: 20px 0; */
+  .socials-bottom{
+    margin-top: 0px !important;
   }
 }
 
