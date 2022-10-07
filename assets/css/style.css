@@ -215,6 +215,29 @@ p{
     margin-top: 0px !important;
   }
 }
+@media only screen and (max-width: 1200px), screen and (max-height: 600px) {
+  h1{
+    font-size: 50px;
+    /* margin: 25px 0; */
+  }
+
+  .yasuke-pic{
+    width: 350px !important;
+  }
+  
+  .yasuke-pic2{
+    width: 350px;
+  }
+
+  p{
+    font-size: 18px;
+    /* margin: 20px 0; */
+  }
+
+  .socials-bottom{
+    margin-top: 0px !important;
+  }
+}
 
 @media only screen and (min-width: 1400px) {
   h1{
